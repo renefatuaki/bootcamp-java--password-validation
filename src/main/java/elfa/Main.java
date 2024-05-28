@@ -2,6 +2,7 @@ package elfa;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        System.out.println(Password.create());
+        System.out.println(Password.create(20));
     }
 }
